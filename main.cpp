@@ -5,17 +5,10 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    monster A;
-  /*
- 
- monster *p,x;
-  p=&x;
-  p=new monster;
- delete p;
-
- p=new monster[3];
- delete []p;
-
-*/
-
+    monster A("slugma",100, 4);
+    monster B("KAKA");
+    monster c("KAAKAA",2,2);
+    monster *p;
+    p=&c;
+    p -> display();
 }
